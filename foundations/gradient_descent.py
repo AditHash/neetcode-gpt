@@ -7,7 +7,8 @@ class Solution:
         x = init
 
         for i in range(iterations):
-            grad = 2 * x
+            grad = 2*x 
             x = x - learning_rate * grad
+            
         return round(x, 5)
         pass
